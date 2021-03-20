@@ -6,6 +6,9 @@
 > ## :warning: Hound's default branch name has changed! :warning:
 > **We renamed our default branch from `master` to `main` on February 24, 2021**. We used [Github's branch renaming feature](https://github.com/github/renaming/#renaming-existing-branches), which means that any open pull requests should be automatically re-targeted, and web requests pointing to code on the `master` branch should redirect as expected. This change should mostly be invisible, but you will need to update any code that explicitly relies on the existence of Hound's `master` branch.
 
+Forked.
+
+
 Hound is an extremely fast source code search engine. The core is based on this article (and code) from Russ Cox:
 [Regular Expression Matching with a Trigram Index](http://swtch.com/~rsc/regexp/regexp4.html). Hound itself is a static
 [React](http://facebook.github.io/react/) frontend that talks to a [Go](http://golang.org/) backend. The backend keeps an up-to-date index for each repository and answers searches through a minimal API. Here it is in action:
